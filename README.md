@@ -1,27 +1,27 @@
-THIS REPOSITORY CONTAINS SCRIPTS AND DATA USED FOR MOTIF ENRICHMENT ANALYSIS EXPERIMENTALLY IDENTIFIED ENHANCERS BY STARR-SEQ
+this repository contains scripts and data used for motif enrichment analysis experimentally identified enhancers by starr-seq
 
-OVERVIEW OF FOLDERS: 
+overview of folders: 
 
-scripts/: 
-    R-SCRIPTS AND BASH-SCRIPTS USED FOR THE ANALYSIS 
+scripts: 
+    r-scripts and bash-scripts used for the analysis 
    
-motifDB/: 
-    PSCM-MATRICES FROM THE JASPAR VERTEBRATES CORE COLLECTION AND JASPAR CORE MATRIX CLUSTERING;
-    ADDITIONALLY A TABLE WITH AN OVERVIEW OF SINGLE-TF MOTIFS ASSOCIATED WITH THE MOTIF CLUSTERS
+motifdb: 
+    pscm-matrices from the jaspar vertebrates core collection and jaspar core matrix clustering;
+    additionally a table with an overview of single-tf motifs associated with the motif clusters
     
-STARRSseq_enhancer/:  
-    BED-FILE WITH GENOMIC REGIONS OF ACTIVE mESC ENHANCERS OBTAINED BY STARRseq, FILTERED FOR PROMOTERS AND WIDTH-UNIFIED;
-    ADDITIONALLY FASTA-FILES WITH GENOMIC SEQUENCES OF WEAK AND STRONG mESC AND RARa ENHANCERS
+starrsseq_enhancer:  
+    bed-file with genomic regions of active mesc enhancers obtained by starrseq, filtered for promoters and width-unified;
+    additionally fasta-files with genomic sequences of weak and strong mesc and rara enhancers
     
-RESULTS_motifcounter/: 
-    TABLES WITH RESULTS OF MOTIF ENRICHMENT ANALYSIS BY MOTIFCOUNTER ON WEAK AND STRONG mESC AND RARa ENHANCERS WITH SINGLE AND CLUSTERED MOTIFS;
-    IN EACH TABLE MOTIFS ARE ORDERED IN DESCENDING ORDER BY THEIR ENRICHMENT;
-    ADDITIONALLY DETAILED MOTIFCOUNTER RESULTS FOR mESC ENHANCERS WITH CLUSTERED MOTIFS IN TXT- AND RDS-FILE TO USE FOR CLASSIFIER LATER ON 
+results_motifcounter: 
+    tables with results of motif enrichment analysis by motifcounter on weak and strong mesc and rara enhancers with single and clustered motifs;
+    in each table motifs are ordered in descending order by their enrichment;
+    additionally detailed motifcounter results for mesc enhancers with clustered motifs in txt- and rds-file to use for classifier later on 
         
-RESULTS_TRAP/: 
-    TABLES WITH RESULTS OF MOTIF ENRICHMENT ANALYSIS BY TRAP ON WEAK AND STRONG mESC AND RARa ENHANCERS WITH SINGLE AND CLUSTERED MOTIFS;
-    IN EACH TABLE MOTIFS ARE ORDERED IN DESCENDING ORDER BY THEIR ENRICHMENT (IN ASCENDING ORDER BY P-VALUE)
+results_trap: 
+    tables with results of motif enrichment analysis by trap on weak and strong mesc and rara enhancers with single and clustered motifs;
+    in each table motifs are ordered in descending order by their enrichment (in ascending order by p-value)
     
-classifier/: 
-    RDS-FILES WITH TEST- AND TRAINING-SETS AND GLMNET-OBJECT TO REPRODUCE RESUTLS IF NEEDED;
-    ADDITIONALLY TABLE WITH BETA-COEFFICIENTS OF THE TRAINED REGRESSION MODEL
+classifier: 
+    rds-files with test- and training-sets and glmnet-object to reproduce resutls if needed;
+    additionally table with beta-coefficients of the trained regression model
